@@ -1,0 +1,1299 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12505 9533
+encoding utf-8
+Sheet 1 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	10500 2800 10200 2800
+Wire Wire Line
+	10200 2800 10200 2700
+Wire Wire Line
+	10200 2700 10200 2600
+Wire Wire Line
+	10200 2600 10200 2500
+Wire Wire Line
+	10200 2500 10200 2400
+Wire Wire Line
+	10200 2400 10200 2300
+Wire Wire Line
+	10200 2300 10200 2100
+Wire Wire Line
+	10200 2100 10200 2000
+Wire Wire Line
+	10200 2000 10200 1900
+Wire Wire Line
+	10200 1900 10200 1800
+Wire Wire Line
+	10200 1800 10200 1700
+Wire Wire Line
+	10200 1700 10200 1600
+Wire Wire Line
+	10200 1600 10200 1500
+Wire Wire Line
+	10200 1500 10200 1400
+Wire Wire Line
+	10200 1400 10200 1300
+Wire Wire Line
+	10200 1300 10200 1200
+Wire Wire Line
+	10500 1200 10200 1200
+Wire Wire Line
+	10500 2400 10200 2400
+Wire Wire Line
+	10500 2300 10200 2300
+Wire Wire Line
+	10500 2500 10200 2500
+Wire Wire Line
+	10500 2600 10200 2600
+Wire Wire Line
+	10500 2700 10200 2700
+Wire Wire Line
+	10500 2100 10200 2100
+Wire Wire Line
+	10500 2000 10200 2000
+Wire Wire Line
+	10500 1900 10200 1900
+Wire Wire Line
+	10500 1800 10200 1800
+Wire Wire Line
+	10500 1700 10200 1700
+Wire Wire Line
+	10500 1600 10200 1600
+Wire Wire Line
+	10500 1500 10200 1500
+Wire Wire Line
+	10500 1400 10200 1400
+Wire Wire Line
+	10500 1300 10200 1300
+Wire Wire Line
+	10200 2800 10200 3000
+Connection ~ 10200 2400
+Connection ~ 10200 2300
+Connection ~ 10200 2500
+Connection ~ 10200 2600
+Connection ~ 10200 2700
+Connection ~ 10200 2100
+Connection ~ 10200 2000
+Connection ~ 10200 1900
+Connection ~ 10200 1800
+Connection ~ 10200 1700
+Connection ~ 10200 1600
+Connection ~ 10200 1500
+Connection ~ 10200 1400
+Connection ~ 10200 1300
+Connection ~ 10200 2800
+Wire Wire Line
+	10200 3700 10200 3800
+Wire Wire Line
+	10200 3800 10200 3900
+Wire Wire Line
+	10200 3900 10200 4000
+Wire Wire Line
+	10200 4000 10200 4100
+Wire Wire Line
+	10200 4100 10200 4200
+Wire Wire Line
+	10200 4200 10200 4300
+Wire Wire Line
+	10200 4300 10200 4400
+Wire Wire Line
+	10500 4400 10200 4400
+Wire Wire Line
+	10500 4300 10200 4300
+Wire Wire Line
+	10500 4200 10200 4200
+Wire Wire Line
+	10500 4100 10200 4100
+Wire Wire Line
+	10500 4000 10200 4000
+Wire Wire Line
+	10500 3900 10200 3900
+Wire Wire Line
+	10500 3800 10200 3800
+Wire Wire Line
+	10500 3700 10200 3700
+Wire Wire Line
+	10200 4400 10200 4800
+Connection ~ 10200 4300
+Connection ~ 10200 4200
+Connection ~ 10200 4100
+Connection ~ 10200 4000
+Connection ~ 10200 3900
+Connection ~ 10200 3800
+Connection ~ 10200 4400
+Wire Wire Line
+	2050 1800 2150 1800
+Text Label 2050 1800 0    70   ~ 0
+3V3_REG
+Wire Wire Line
+	9700 5600 9700 5800
+Wire Wire Line
+	9700 5800 9700 6000
+Wire Wire Line
+	9700 6000 9700 6200
+Wire Wire Line
+	9700 6200 9700 6400
+Wire Wire Line
+	9700 6400 9700 6600
+Wire Wire Line
+	9700 6600 9700 6800
+Wire Wire Line
+	9700 6800 9700 7000
+Wire Wire Line
+	9700 5600 9700 5200
+Connection ~ 9700 6800
+Connection ~ 9700 6600
+Connection ~ 9700 6400
+Connection ~ 9700 6200
+Connection ~ 9700 6000
+Connection ~ 9700 5800
+Connection ~ 9700 5600
+Text Label 9700 5200 0    70   ~ 0
+3V3_REG
+Wire Wire Line
+	9300 1200 8800 1200
+Text Label 8800 1200 0    70   ~ 0
+RG0
+Wire Wire Line
+	9300 1300 8800 1300
+Text Label 8800 1300 0    70   ~ 0
+RG1
+Wire Wire Line
+	9300 1400 8800 1400
+Text Label 8800 1400 0    70   ~ 0
+RG2
+Wire Wire Line
+	9300 1500 8800 1500
+Text Label 8800 1500 0    70   ~ 0
+RG3
+Wire Wire Line
+	9300 1600 8800 1600
+Text Label 8800 1600 0    70   ~ 0
+RG4
+Wire Wire Line
+	9300 1700 8800 1700
+Text Label 8800 1700 0    70   ~ 0
+RG5
+Wire Wire Line
+	9300 1800 8800 1800
+Text Label 8800 1800 0    70   ~ 0
+RG6
+Wire Wire Line
+	9300 1900 8800 1900
+Text Label 8800 1900 0    70   ~ 0
+RG7
+Wire Wire Line
+	9300 2000 8800 2000
+Text Label 8800 2000 0    70   ~ 0
+RG8
+Wire Wire Line
+	9300 2100 8800 2100
+Text Label 8800 2100 0    70   ~ 0
+RG9
+Wire Wire Line
+	9300 2300 8800 2300
+Text Label 8800 2300 0    70   ~ 0
+RG10
+Wire Wire Line
+	9300 2400 8800 2400
+Text Label 8800 2400 0    70   ~ 0
+RG11
+Wire Wire Line
+	9300 2500 8800 2500
+Text Label 8800 2500 0    70   ~ 0
+RG12
+Wire Wire Line
+	9300 2600 8800 2600
+Text Label 8800 2600 0    70   ~ 0
+RG13
+Wire Wire Line
+	9300 2700 8800 2700
+Text Label 8800 2700 0    70   ~ 0
+RG14
+Wire Wire Line
+	9300 2800 8800 2800
+Text Label 8800 2800 0    70   ~ 0
+RG15
+Wire Wire Line
+	9300 4400 8700 4400
+Text Label 8700 4400 0    70   ~ 0
+D8
+Wire Wire Line
+	9300 4300 8700 4300
+Text Label 8700 4300 0    70   ~ 0
+D7
+Wire Wire Line
+	9300 4200 8700 4200
+Text Label 8700 4200 0    70   ~ 0
+D6
+Wire Wire Line
+	9300 4100 8700 4100
+Text Label 8700 4100 0    70   ~ 0
+D5
+Wire Wire Line
+	9300 4000 8700 4000
+Text Label 8700 4000 0    70   ~ 0
+D4
+Wire Wire Line
+	9300 3900 8700 3900
+Text Label 8700 3900 0    70   ~ 0
+D3
+Wire Wire Line
+	9300 3800 8700 3800
+Text Label 8700 3800 0    70   ~ 0
+D2
+Wire Wire Line
+	9300 3700 8700 3700
+Text Label 8700 3700 0    70   ~ 0
+D1
+$Comp
+L Raspberry_modular-rescue:PINHD-1X10-OhEye-eagle-import U$3
+U 1 1 2AECCF64
+P 9400 1600
+F 0 "U$3" H 9150 2125 59  0000 L BNN
+F 1 "PINHD-1X10" H 9150 900 59  0000 L BNN
+F 2 "Raspberry_modular:1X10-BIG" H 9400 1600 50  0001 C CNN
+F 3 "" H 9400 1600 50  0001 C CNN
+	1    9400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Raspberry_modular-rescue:PINHD-1X10-OhEye-eagle-import U$5
+U 1 1 664F9D51
+P 10600 1600
+F 0 "U$5" H 10350 2125 59  0000 L BNN
+F 1 "PINHD-1X10" H 10350 900 59  0000 L BNN
+F 2 "Raspberry_modular:1X10-BIG" H 10600 1600 50  0001 C CNN
+F 3 "" H 10600 1600 50  0001 C CNN
+	1    10600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Raspberry_modular-rescue:PINHD-1X6B-OhEye-eagle-import JP1
+U 1 1 A75A2B47
+P 9400 2600
+F 0 "JP1" H 9150 3025 59  0000 L BNN
+F 1 "PINHD-1X6B" H 9150 2200 59  0000 L BNN
+F 2 "Raspberry_modular:1X06-BIG" H 9400 2600 50  0001 C CNN
+F 3 "" H 9400 2600 50  0001 C CNN
+	1    9400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Raspberry_modular-rescue:PINHD-1X6B-OhEye-eagle-import JP3
+U 1 1 48CD7B62
+P 10600 2600
+F 0 "JP3" H 10350 3025 59  0000 L BNN
+F 1 "PINHD-1X6B" H 10350 2200 59  0000 L BNN
+F 2 "Raspberry_modular:1X06-BIG" H 10600 2600 50  0001 C CNN
+F 3 "" H 10600 2600 50  0001 C CNN
+	1    10600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Raspberry_modular-rescue:PINHD-1X8BIG-OhEye-eagle-import JP5
+U 1 1 EB76D72F
+P 9400 4000
+F 0 "JP5" H 9150 4425 59  0000 L BNN
+F 1 "PINHD-1X8BIG" H 9150 3400 59  0000 L BNN
+F 2 "Raspberry_modular:1X08-BIG" H 9400 4000 50  0001 C CNN
+F 3 "" H 9400 4000 50  0001 C CNN
+	1    9400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Raspberry_modular-rescue:PINHD-1X8BIG-OhEye-eagle-import JP7
+U 1 1 F6917365
+P 10600 4000
+F 0 "JP7" H 10350 4425 59  0000 L BNN
+F 1 "PINHD-1X8BIG" H 10350 3400 59  0000 L BNN
+F 2 "Raspberry_modular:1X08-BIG" H 10600 4000 50  0001 C CNN
+F 3 "" H 10600 4000 50  0001 C CNN
+	1    10600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 5800 9700 5800
+Wire Wire Line
+	9400 6000 9700 6000
+Wire Wire Line
+	9400 6200 9700 6200
+Wire Wire Line
+	9400 5600 9700 5600
+Text Label 8800 6200 0    70   ~ 0
+D1
+Wire Wire Line
+	9100 6200 8800 6200
+Text Label 8800 6000 0    70   ~ 0
+D2
+Wire Wire Line
+	9100 6000 8800 6000
+Text Label 8800 5800 0    70   ~ 0
+D3
+Wire Wire Line
+	9100 5800 8800 5800
+Text Label 8800 5600 0    70   ~ 0
+D4
+Wire Wire Line
+	9100 5600 8800 5600
+Text Label 8800 7000 0    70   ~ 0
+D5
+Wire Wire Line
+	9100 7000 8800 7000
+Text Label 8800 6800 0    70   ~ 0
+D6
+Wire Wire Line
+	9100 6800 8800 6800
+Text Label 8800 6600 0    70   ~ 0
+D7
+Wire Wire Line
+	9100 6600 8800 6600
+Text Label 8800 6400 0    70   ~ 0
+D8
+Wire Wire Line
+	9100 6400 8800 6400
+Wire Wire Line
+	9400 6400 9700 6400
+Wire Wire Line
+	9400 6600 9700 6600
+Wire Wire Line
+	9400 6800 9700 6800
+Wire Wire Line
+	9700 7000 9400 7000
+Wire Wire Line
+	1100 5800 1000 5800
+Wire Wire Line
+	1000 5900 1500 5900
+Wire Wire Line
+	1000 6000 1500 6000
+Text Label 1500 5900 2    50   ~ 0
+RG0
+Text Label 1500 6000 2    50   ~ 0
+CH0
+$Sheet
+S 500  5700 500  400 
+U 61D07009
+F0 "inputRegulator" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 1000 5800 50 
+F3 "IN" I R 1000 5900 50 
+F4 "OUT" B R 1000 6000 50 
+$EndSheet
+$Comp
+L power:GND #PWR0101
+U 1 1 620FD759
+P 1100 5800
+F 0 "#PWR0101" H 1100 5550 50  0001 C CNN
+F 1 "GND" V 1105 5672 50  0000 R CNN
+F 2 "" H 1100 5800 50  0001 C CNN
+F 3 "" H 1100 5800 50  0001 C CNN
+	1    1100 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 62160D3B
+P 10200 4800
+F 0 "#PWR0109" H 10200 4550 50  0001 C CNN
+F 1 "GND" H 10205 4627 50  0000 C CNN
+F 2 "" H 10200 4800 50  0001 C CNN
+F 3 "" H 10200 4800 50  0001 C CNN
+	1    10200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6216E527
+P 10200 3000
+F 0 "#PWR0110" H 10200 2750 50  0001 C CNN
+F 1 "GND" H 10205 2827 50  0000 C CNN
+F 2 "" H 10200 3000 50  0001 C CNN
+F 3 "" H 10200 3000 50  0001 C CNN
+	1    10200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5800 2150 5800
+Wire Wire Line
+	2150 5900 2650 5900
+Wire Wire Line
+	2150 6000 2650 6000
+Text Label 2650 5900 2    50   ~ 0
+RG1
+Text Label 2650 6000 2    50   ~ 0
+CH1
+$Sheet
+S 1650 5700 500  400 
+U 6224125D
+F0 "sheet62241253" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 2150 5800 50 
+F3 "IN" I R 2150 5900 50 
+F4 "OUT" B R 2150 6000 50 
+$EndSheet
+$Comp
+L power:GND #PWR0115
+U 1 1 62241263
+P 2250 5800
+F 0 "#PWR0115" H 2250 5550 50  0001 C CNN
+F 1 "GND" V 2255 5672 50  0000 R CNN
+F 2 "" H 2250 5800 50  0001 C CNN
+F 3 "" H 2250 5800 50  0001 C CNN
+	1    2250 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 5800 3300 5800
+Wire Wire Line
+	3300 5900 3800 5900
+Wire Wire Line
+	3300 6000 3800 6000
+Text Label 3800 5900 2    50   ~ 0
+RG2
+Text Label 3800 6000 2    50   ~ 0
+CH2
+$Sheet
+S 2800 5700 500  400 
+U 6224FA7B
+F0 "sheet6224FA71" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 3300 5800 50 
+F3 "IN" I R 3300 5900 50 
+F4 "OUT" B R 3300 6000 50 
+$EndSheet
+$Comp
+L power:GND #PWR0116
+U 1 1 6224FA81
+P 3400 5800
+F 0 "#PWR0116" H 3400 5550 50  0001 C CNN
+F 1 "GND" V 3405 5672 50  0000 R CNN
+F 2 "" H 3400 5800 50  0001 C CNN
+F 3 "" H 3400 5800 50  0001 C CNN
+	1    3400 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 6500 1000 6500
+Wire Wire Line
+	1000 6600 1500 6600
+Wire Wire Line
+	1000 6700 1500 6700
+Text Label 1500 6600 2    50   ~ 0
+RG3
+Text Label 1500 6700 2    50   ~ 0
+CH3
+$Sheet
+S 500  6400 500  400 
+U 62272CD0
+F0 "sheet62272CC4" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 1000 6500 50 
+F3 "IN" I R 1000 6600 50 
+F4 "OUT" B R 1000 6700 50 
+$EndSheet
+$Comp
+L power:GND #PWR0117
+U 1 1 62272CD6
+P 1100 6500
+F 0 "#PWR0117" H 1100 6250 50  0001 C CNN
+F 1 "GND" V 1105 6372 50  0000 R CNN
+F 2 "" H 1100 6500 50  0001 C CNN
+F 3 "" H 1100 6500 50  0001 C CNN
+	1    1100 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 6500 2150 6500
+Wire Wire Line
+	2150 6600 2650 6600
+Wire Wire Line
+	2150 6700 2650 6700
+Text Label 2650 6600 2    50   ~ 0
+RG4
+Text Label 2650 6700 2    50   ~ 0
+CH4
+$Sheet
+S 1650 6400 500  400 
+U 62272CE0
+F0 "sheet62272CC5" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 2150 6500 50 
+F3 "IN" I R 2150 6600 50 
+F4 "OUT" B R 2150 6700 50 
+$EndSheet
+$Comp
+L power:GND #PWR0118
+U 1 1 62272CE6
+P 2250 6500
+F 0 "#PWR0118" H 2250 6250 50  0001 C CNN
+F 1 "GND" V 2255 6372 50  0000 R CNN
+F 2 "" H 2250 6500 50  0001 C CNN
+F 3 "" H 2250 6500 50  0001 C CNN
+	1    2250 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 6500 3300 6500
+Wire Wire Line
+	3300 6600 3800 6600
+Wire Wire Line
+	3300 6700 3800 6700
+Text Label 3800 6600 2    50   ~ 0
+RG5
+Text Label 3800 6700 2    50   ~ 0
+CH5
+$Sheet
+S 2800 6400 500  400 
+U 62272CF0
+F0 "sheet62272CC6" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 3300 6500 50 
+F3 "IN" I R 3300 6600 50 
+F4 "OUT" B R 3300 6700 50 
+$EndSheet
+$Comp
+L power:GND #PWR0119
+U 1 1 62272CF6
+P 3400 6500
+F 0 "#PWR0119" H 3400 6250 50  0001 C CNN
+F 1 "GND" V 3405 6372 50  0000 R CNN
+F 2 "" H 3400 6500 50  0001 C CNN
+F 3 "" H 3400 6500 50  0001 C CNN
+	1    3400 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 7200 1000 7200
+Wire Wire Line
+	1000 7300 1500 7300
+Wire Wire Line
+	1000 7400 1500 7400
+Text Label 1500 7300 2    50   ~ 0
+RG6
+Text Label 1500 7400 2    50   ~ 0
+CH6
+$Sheet
+S 500  7100 500  400 
+U 62286093
+F0 "sheet62286087" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 1000 7200 50 
+F3 "IN" I R 1000 7300 50 
+F4 "OUT" B R 1000 7400 50 
+$EndSheet
+$Comp
+L power:GND #PWR0120
+U 1 1 62286099
+P 1100 7200
+F 0 "#PWR0120" H 1100 6950 50  0001 C CNN
+F 1 "GND" V 1105 7072 50  0000 R CNN
+F 2 "" H 1100 7200 50  0001 C CNN
+F 3 "" H 1100 7200 50  0001 C CNN
+	1    1100 7200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 7200 2150 7200
+Wire Wire Line
+	2150 7300 2650 7300
+Wire Wire Line
+	2150 7400 2650 7400
+Text Label 2650 7300 2    50   ~ 0
+RG7
+Text Label 2650 7400 2    50   ~ 0
+CH7
+$Sheet
+S 1650 7100 500  400 
+U 622860A3
+F0 "sheet62286088" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 2150 7200 50 
+F3 "IN" I R 2150 7300 50 
+F4 "OUT" B R 2150 7400 50 
+$EndSheet
+$Comp
+L power:GND #PWR0121
+U 1 1 622860A9
+P 2250 7200
+F 0 "#PWR0121" H 2250 6950 50  0001 C CNN
+F 1 "GND" V 2255 7072 50  0000 R CNN
+F 2 "" H 2250 7200 50  0001 C CNN
+F 3 "" H 2250 7200 50  0001 C CNN
+	1    2250 7200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 7200 3300 7200
+Wire Wire Line
+	3300 7300 3800 7300
+Wire Wire Line
+	3300 7400 3800 7400
+Text Label 3800 7300 2    50   ~ 0
+RG8
+Text Label 3800 7400 2    50   ~ 0
+CH8
+$Sheet
+S 2800 7100 500  400 
+U 622860B3
+F0 "sheet62286089" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 3300 7200 50 
+F3 "IN" I R 3300 7300 50 
+F4 "OUT" B R 3300 7400 50 
+$EndSheet
+$Comp
+L power:GND #PWR0122
+U 1 1 622860B9
+P 3400 7200
+F 0 "#PWR0122" H 3400 6950 50  0001 C CNN
+F 1 "GND" V 3405 7072 50  0000 R CNN
+F 2 "" H 3400 7200 50  0001 C CNN
+F 3 "" H 3400 7200 50  0001 C CNN
+	1    3400 7200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 7900 1000 7900
+Wire Wire Line
+	1000 8000 1500 8000
+Wire Wire Line
+	1000 8100 1500 8100
+Text Label 1500 8000 2    50   ~ 0
+RG9
+Text Label 1500 8100 2    50   ~ 0
+CH9
+$Sheet
+S 500  7800 500  400 
+U 6229E4D6
+F0 "sheet6229E4C7" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 1000 7900 50 
+F3 "IN" I R 1000 8000 50 
+F4 "OUT" B R 1000 8100 50 
+$EndSheet
+$Comp
+L power:GND #PWR0123
+U 1 1 6229E4DC
+P 1100 7900
+F 0 "#PWR0123" H 1100 7650 50  0001 C CNN
+F 1 "GND" V 1105 7772 50  0000 R CNN
+F 2 "" H 1100 7900 50  0001 C CNN
+F 3 "" H 1100 7900 50  0001 C CNN
+	1    1100 7900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 7900 2150 7900
+Wire Wire Line
+	2150 8000 2650 8000
+Wire Wire Line
+	2150 8100 2650 8100
+Text Label 2650 8000 2    50   ~ 0
+RG10
+Text Label 2650 8100 2    50   ~ 0
+CH10
+$Sheet
+S 1650 7800 500  400 
+U 6229E4E6
+F0 "sheet6229E4C8" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 2150 7900 50 
+F3 "IN" I R 2150 8000 50 
+F4 "OUT" B R 2150 8100 50 
+$EndSheet
+$Comp
+L power:GND #PWR0124
+U 1 1 6229E4EC
+P 2250 7900
+F 0 "#PWR0124" H 2250 7650 50  0001 C CNN
+F 1 "GND" V 2255 7772 50  0000 R CNN
+F 2 "" H 2250 7900 50  0001 C CNN
+F 3 "" H 2250 7900 50  0001 C CNN
+	1    2250 7900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 7900 3300 7900
+Wire Wire Line
+	3300 8000 3800 8000
+Wire Wire Line
+	3300 8100 3800 8100
+Text Label 3800 8000 2    50   ~ 0
+RG11
+Text Label 3800 8100 2    50   ~ 0
+CH11
+$Sheet
+S 2800 7800 500  400 
+U 6229E4F6
+F0 "sheet6229E4C9" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 3300 7900 50 
+F3 "IN" I R 3300 8000 50 
+F4 "OUT" B R 3300 8100 50 
+$EndSheet
+$Comp
+L power:GND #PWR0125
+U 1 1 6229E4FC
+P 3400 7900
+F 0 "#PWR0125" H 3400 7650 50  0001 C CNN
+F 1 "GND" V 3405 7772 50  0000 R CNN
+F 2 "" H 3400 7900 50  0001 C CNN
+F 3 "" H 3400 7900 50  0001 C CNN
+	1    3400 7900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 8600 1000 8600
+Wire Wire Line
+	1000 8700 1500 8700
+Wire Wire Line
+	1000 8800 1500 8800
+Text Label 1500 8700 2    50   ~ 0
+RG12
+Text Label 1500 8800 2    50   ~ 0
+CH12
+$Sheet
+S 500  8500 500  400 
+U 6229E506
+F0 "sheet6229E4CA" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 1000 8600 50 
+F3 "IN" I R 1000 8700 50 
+F4 "OUT" B R 1000 8800 50 
+$EndSheet
+$Comp
+L power:GND #PWR0126
+U 1 1 6229E50C
+P 1100 8600
+F 0 "#PWR0126" H 1100 8350 50  0001 C CNN
+F 1 "GND" V 1105 8472 50  0000 R CNN
+F 2 "" H 1100 8600 50  0001 C CNN
+F 3 "" H 1100 8600 50  0001 C CNN
+	1    1100 8600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 8600 2150 8600
+Wire Wire Line
+	2150 8700 2650 8700
+Wire Wire Line
+	2150 8800 2650 8800
+Text Label 2650 8700 2    50   ~ 0
+RG13
+Text Label 2650 8800 2    50   ~ 0
+CH13
+$Sheet
+S 1650 8500 500  400 
+U 6229E516
+F0 "sheet6229E4CB" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 2150 8600 50 
+F3 "IN" I R 2150 8700 50 
+F4 "OUT" B R 2150 8800 50 
+$EndSheet
+$Comp
+L power:GND #PWR0127
+U 1 1 6229E51C
+P 2250 8600
+F 0 "#PWR0127" H 2250 8350 50  0001 C CNN
+F 1 "GND" V 2255 8472 50  0000 R CNN
+F 2 "" H 2250 8600 50  0001 C CNN
+F 3 "" H 2250 8600 50  0001 C CNN
+	1    2250 8600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 8600 3300 8600
+Wire Wire Line
+	3300 8700 3800 8700
+Wire Wire Line
+	3300 8800 3800 8800
+Text Label 3800 8700 2    50   ~ 0
+RG14
+Text Label 3800 8800 2    50   ~ 0
+CH14
+$Sheet
+S 2800 8500 500  400 
+U 6229E526
+F0 "sheet6229E4CC" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 3300 8600 50 
+F3 "IN" I R 3300 8700 50 
+F4 "OUT" B R 3300 8800 50 
+$EndSheet
+$Comp
+L power:GND #PWR0128
+U 1 1 6229E52C
+P 3400 8600
+F 0 "#PWR0128" H 3400 8350 50  0001 C CNN
+F 1 "GND" V 3405 8472 50  0000 R CNN
+F 2 "" H 3400 8600 50  0001 C CNN
+F 3 "" H 3400 8600 50  0001 C CNN
+	1    3400 8600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 8600 4450 8600
+Wire Wire Line
+	4450 8700 4950 8700
+Wire Wire Line
+	4450 8800 4950 8800
+Text Label 4950 8700 2    50   ~ 0
+RG15
+$Sheet
+S 3950 8500 500  400 
+U 622B573E
+F0 "sheet622B5734" 50
+F1 "inputRegulator.sch" 50
+F2 "GND" B R 4450 8600 50 
+F3 "IN" I R 4450 8700 50 
+F4 "OUT" B R 4450 8800 50 
+$EndSheet
+$Comp
+L power:GND #PWR0129
+U 1 1 622B5744
+P 4550 8600
+F 0 "#PWR0129" H 4550 8350 50  0001 C CNN
+F 1 "GND" V 4555 8472 50  0000 R CNN
+F 2 "" H 4550 8600 50  0001 C CNN
+F 3 "" H 4550 8600 50  0001 C CNN
+	1    4550 8600
+	0    -1   -1   0   
+$EndComp
+Text Label 4950 8800 2    50   ~ 0
+CH15
+$Comp
+L Analog_ADC:MCP3008 U1
+U 1 1 61C351F7
+P 5700 3550
+F 0 "U1" H 5700 4231 50  0000 C CNN
+F 1 "MCP3008" H 5700 4140 50  0000 C CNN
+F 2 "Raspberry_modular:SOIC16" H 5800 3650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 5800 3650 50  0001 C CNN
+	1    5700 3550
+	1    0    0    -1  
+$EndComp
+Text Label 5100 3250 2    50   ~ 0
+CH0
+Text Label 5100 3350 2    50   ~ 0
+CH1
+$Comp
+L power:GND #PWR0130
+U 1 1 61E07C0F
+P 5900 4150
+F 0 "#PWR0130" H 5900 3900 50  0001 C CNN
+F 1 "GND" H 5905 3977 50  0000 C CNN
+F 2 "" H 5900 4150 50  0001 C CNN
+F 3 "" H 5900 4150 50  0001 C CNN
+	1    5900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 61E087A3
+P 5600 4150
+F 0 "#PWR0131" H 5600 3900 50  0001 C CNN
+F 1 "GND" H 5605 3977 50  0000 C CNN
+F 2 "" H 5600 4150 50  0001 C CNN
+F 3 "" H 5600 4150 50  0001 C CNN
+	1    5600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3050 5900 3050
+Wire Wire Line
+	5900 3050 5900 2600
+Connection ~ 5900 3050
+Text Label 5900 2600 0    70   ~ 0
+3V3_REG
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 61E50C6C
+P 2550 1800
+F 0 "#FLG0103" H 2550 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 2550 1973 50  0000 C CNN
+F 2 "" H 2550 1800 50  0001 C CNN
+F 3 "~" H 2550 1800 50  0001 C CNN
+	1    2550 1800
+	1    0    0    -1  
+$EndComp
+Text Label 5100 3450 2    50   ~ 0
+CH2
+Text Label 5100 3550 2    50   ~ 0
+CH3
+Text Label 5100 3650 2    50   ~ 0
+CH4
+Text Label 5100 3750 2    50   ~ 0
+CH5
+Text Label 5100 3850 2    50   ~ 0
+CH6
+Text Label 5100 3950 2    50   ~ 0
+CH7
+Text Label 6300 3450 0    50   ~ 0
+GPIO11
+Text Label 6300 3550 0    50   ~ 0
+GPIO9
+Text Label 6300 3650 0    50   ~ 0
+GPIO10
+Text Label 6300 3750 0    50   ~ 0
+GPIO8
+$Comp
+L Analog_ADC:MCP3008 U3
+U 1 1 61F3B080
+P 7200 5250
+F 0 "U3" H 7200 5931 50  0000 C CNN
+F 1 "MCP3008" H 7200 5840 50  0000 C CNN
+F 2 "Raspberry_modular:SOIC16" H 7300 5350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 7300 5350 50  0001 C CNN
+	1    7200 5250
+	1    0    0    -1  
+$EndComp
+Text Label 6600 4950 2    50   ~ 0
+CH8
+Text Label 6600 5050 2    50   ~ 0
+CH9
+$Comp
+L power:GND #PWR02
+U 1 1 61F3B088
+P 7400 5850
+F 0 "#PWR02" H 7400 5600 50  0001 C CNN
+F 1 "GND" H 7405 5677 50  0000 C CNN
+F 2 "" H 7400 5850 50  0001 C CNN
+F 3 "" H 7400 5850 50  0001 C CNN
+	1    7400 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 61F3B08E
+P 7100 5850
+F 0 "#PWR01" H 7100 5600 50  0001 C CNN
+F 1 "GND" H 7105 5677 50  0000 C CNN
+F 2 "" H 7100 5850 50  0001 C CNN
+F 3 "" H 7100 5850 50  0001 C CNN
+	1    7100 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4750 7400 4750
+Wire Wire Line
+	7400 4750 7400 4300
+Connection ~ 7400 4750
+Text Label 7400 4300 0    70   ~ 0
+3V3_REG
+Text Label 6600 5150 2    50   ~ 0
+CH10
+Text Label 6600 5250 2    50   ~ 0
+CH11
+Text Label 6600 5350 2    50   ~ 0
+CH12
+Text Label 6600 5450 2    50   ~ 0
+CH13
+Text Label 6600 5550 2    50   ~ 0
+CH14
+Text Label 6600 5650 2    50   ~ 0
+CH15
+Text Label 7800 5150 0    50   ~ 0
+GPIO11
+Text Label 7800 5250 0    50   ~ 0
+GPIO9
+Text Label 7800 5350 0    50   ~ 0
+GPIO10
+Text Label 7800 5450 0    50   ~ 0
+GPIO7
+Text Label 2750 3500 0    50   ~ 0
+GPIO10
+Text Label 2750 3400 0    50   ~ 0
+GPIO9
+Text Label 2750 3600 0    50   ~ 0
+GPIO11
+Text Label 2750 3200 0    50   ~ 0
+GPIO7
+Text Label 2750 3300 0    50   ~ 0
+GPIO8
+Text Label 2750 2900 0    50   ~ 0
+D1
+Text Label 2750 3000 0    50   ~ 0
+D2
+Text Label 2750 3900 0    50   ~ 0
+D3
+Text Label 1150 2900 2    50   ~ 0
+D4
+Text Label 1150 3700 2    50   ~ 0
+D5
+Text Label 2750 3800 0    50   ~ 0
+D6
+Text Label 1150 2500 2    50   ~ 0
+D7
+Text Label 1150 3000 2    50   ~ 0
+D8
+$Comp
+L power:GND #PWR04
+U 1 1 61FABD3B
+P 1900 4550
+F 0 "#PWR04" H 1900 4300 50  0001 C CNN
+F 1 "GND" H 1905 4377 50  0000 C CNN
+F 2 "" H 1900 4550 50  0001 C CNN
+F 3 "" H 1900 4550 50  0001 C CNN
+	1    1900 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4400 2150 4400
+Connection ~ 1650 4400
+Wire Wire Line
+	1650 4400 1550 4400
+Connection ~ 1750 4400
+Wire Wire Line
+	1750 4400 1650 4400
+Connection ~ 1850 4400
+Wire Wire Line
+	1850 4400 1750 4400
+Connection ~ 1950 4400
+Wire Wire Line
+	1950 4400 1900 4400
+Connection ~ 2050 4400
+Wire Wire Line
+	2050 4400 1950 4400
+Connection ~ 2150 4400
+Wire Wire Line
+	2150 4400 2050 4400
+Wire Wire Line
+	1900 4550 1900 4400
+Connection ~ 1900 4400
+Wire Wire Line
+	1900 4400 1850 4400
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 61F941CC
+P 1950 3100
+F 0 "J1" H 2100 5000 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 2150 4850 50  0000 C CNN
+F 2 "Raspberry_modular:PIN_20X2" H 1950 3100 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 1950 3100 50  0001 C CNN
+	1    1950 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1800 1800 1800
+$Comp
+L power:GND #PWR05
+U 1 1 62179720
+P 12050 550
+F 0 "#PWR05" H 12050 300 50  0001 C CNN
+F 1 "GND" H 12055 377 50  0000 C CNN
+F 2 "" H 12050 550 50  0001 C CNN
+F 3 "" H 12050 550 50  0001 C CNN
+	1    12050 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 62179726
+P 12050 550
+F 0 "#FLG02" H 12050 625 50  0001 C CNN
+F 1 "PWR_FLAG" H 12050 723 50  0000 C CNN
+F 2 "" H 12050 550 50  0001 C CNN
+F 3 "~" H 12050 550 50  0001 C CNN
+	1    12050 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 6217972C
+P 11700 550
+F 0 "#FLG01" H 11700 625 50  0001 C CNN
+F 1 "PWR_FLAG" H 11700 723 50  0000 C CNN
+F 2 "" H 11700 550 50  0001 C CNN
+F 3 "~" H 11700 550 50  0001 C CNN
+	1    11700 550 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 62179732
+P 11700 550
+F 0 "#PWR03" H 11700 400 50  0001 C CNN
+F 1 "+5V" H 11715 723 50  0000 C CNN
+F 2 "" H 11700 550 50  0001 C CNN
+F 3 "" H 11700 550 50  0001 C CNN
+	1    11700 550 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2750 2200
+NoConn ~ 2750 2300
+NoConn ~ 2750 2500
+NoConn ~ 2750 2600
+NoConn ~ 2750 2800
+NoConn ~ 1150 3800
+NoConn ~ 1150 3600
+NoConn ~ 1150 3500
+NoConn ~ 1150 3400
+NoConn ~ 1150 3300
+NoConn ~ 1150 3100
+NoConn ~ 1150 2700
+NoConn ~ 1150 2600
+NoConn ~ 1150 2300
+NoConn ~ 1150 2200
+$Comp
+L power:+5V #PWR0102
+U 1 1 622C83CF
+P 1800 1750
+F 0 "#PWR0102" H 1800 1600 50  0001 C CNN
+F 1 "+5V" H 1815 1923 50  0000 C CNN
+F 2 "" H 1800 1750 50  0001 C CNN
+F 3 "" H 1800 1750 50  0001 C CNN
+	1    1800 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1750 1800 1800
+Connection ~ 1800 1800
+Wire Wire Line
+	1800 1800 1850 1800
+Connection ~ 2150 1800
+Wire Wire Line
+	2150 1800 2550 1800
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61B351EA
+P 5050 1100
+F 0 "H1" H 5150 1146 50  0000 L CNN
+F 1 "MountingHole" H 5150 1055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5050 1100 50  0001 C CNN
+F 3 "~" H 5050 1100 50  0001 C CNN
+	1    5050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61B62971
+P 5050 1300
+F 0 "H2" H 5150 1346 50  0000 L CNN
+F 1 "MountingHole" H 5150 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5050 1300 50  0001 C CNN
+F 3 "~" H 5050 1300 50  0001 C CNN
+	1    5050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61B6DD57
+P 5050 1500
+F 0 "H3" H 5150 1546 50  0000 L CNN
+F 1 "MountingHole" H 5150 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5050 1500 50  0001 C CNN
+F 3 "~" H 5050 1500 50  0001 C CNN
+	1    5050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61B78E4E
+P 5050 1700
+F 0 "H4" H 5150 1746 50  0000 L CNN
+F 1 "MountingHole" H 5150 1655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5050 1700 50  0001 C CNN
+F 3 "~" H 5050 1700 50  0001 C CNN
+	1    5050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 61BC2972
+P 9250 5600
+F 0 "R4" V 9457 5600 50  0000 C CNN
+F 1 "10K" V 9366 5600 50  0000 C CNN
+F 2 "Raspberry_modular:R_0603_1608Metric" V 9180 5600 50  0001 C CNN
+F 3 "~" H 9250 5600 50  0001 C CNN
+	1    9250 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 61BF00B5
+P 9250 5800
+F 0 "R50" V 9457 5800 50  0000 C CNN
+F 1 "10K" V 9366 5800 50  0000 C CNN
+F 2 "Raspberry_modular:R_0603_1608Metric" V 9180 5800 50  0001 C CNN
+F 3 "~" H 9250 5800 50  0001 C CNN
+	1    9250 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R52
+U 1 1 61C066B4
+P 9250 6200
+F 0 "R52" V 9457 6200 50  0000 C CNN
+F 1 "10K" V 9366 6200 50  0000 C CNN
+F 2 "Raspberry_modular:R_0603_1608Metric" V 9180 6200 50  0001 C CNN
+F 3 "~" H 9250 6200 50  0001 C CNN
+	1    9250 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R56
+U 1 1 61C3E7F0
+P 9250 7000
+F 0 "R56" V 9457 7000 50  0000 C CNN
+F 1 "10K" V 9366 7000 50  0000 C CNN
+F 2 "Raspberry_modular:R_0603_1608Metric" V 9180 7000 50  0001 C CNN
+F 3 "~" H 9250 7000 50  0001 C CNN
+	1    9250 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R54
+U 1 1 61C2818D
+P 9250 6600
+F 0 "R54" V 9457 6600 50  0000 C CNN
+F 1 "10K" V 9366 6600 50  0000 C CNN
+F 2 "Raspberry_modular:R_0603_1608Metric" V 9180 6600 50  0001 C CNN
+F 3 "~" H 9250 6600 50  0001 C CNN
+	1    9250 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R55
+U 1 1 61C33512
+P 9250 6800
+F 0 "R55" V 9457 6800 50  0000 C CNN
+F 1 "10K" V 9366 6800 50  0000 C CNN
+F 2 "Raspberry_modular:R_0603_1608Metric" V 9180 6800 50  0001 C CNN
+F 3 "~" H 9250 6800 50  0001 C CNN
+	1    9250 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R53
+U 1 1 61C1CF56
+P 9250 6400
+F 0 "R53" V 9457 6400 50  0000 C CNN
+F 1 "10K" V 9366 6400 50  0000 C CNN
+F 2 "Raspberry_modular:R_0603_1608Metric" V 9180 6400 50  0001 C CNN
+F 3 "~" H 9250 6400 50  0001 C CNN
+	1    9250 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R51
+U 1 1 61BFB3E1
+P 9250 6000
+F 0 "R51" V 9457 6000 50  0000 C CNN
+F 1 "10K" V 9366 6000 50  0000 C CNN
+F 2 "Raspberry_modular:R_0603_1608Metric" V 9180 6000 50  0001 C CNN
+F 3 "~" H 9250 6000 50  0001 C CNN
+	1    9250 6000
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

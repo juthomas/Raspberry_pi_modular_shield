@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name OhEye-eagle-import)(type Legacy)(uri ${KIPRJMOD}/OhEye-eagle-import.lib)(options "")(descr ""))
+  (lib (name OhEye-rescue)(type Legacy)(uri ${KIPRJMOD}/OhEye-rescue.lib)(options "")(descr ""))
+  (lib (name Raspberry_modular-rescue)(type Legacy)(uri ${KIPRJMOD}/Raspberry_modular-rescue.lib)(options "")(descr ""))
+)

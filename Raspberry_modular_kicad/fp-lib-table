@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name OhEye)(type KiCad)(uri "$(KIPRJMOD)/OhEye.pretty")(options "")(descr ""))
+  (lib (name Raspberry_modular)(type KiCad)(uri ${KIPRJMOD}/Raspberry_modular.pretty)(options "")(descr ""))
+)
