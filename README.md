@@ -5,6 +5,6 @@
 
 ## Install dependency for C coding :
 
-[spidev-lib] (https://github.com/milekium/spidev-lib)
+[spidev-lib](https://github.com/milekium/spidev-lib)
 
 dont forget to add the `-lspidev-lib` flag when compiling
