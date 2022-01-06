@@ -20,6 +20,7 @@ float get_voltage_value(uint8_t channel)
 	spifd=spi_open(channel < 8 ? "/dev/spidev0.0" : "/dev/spidev0.1",spi_config);
 	if (spifd < 0)
 	{
+		printf("make sure that \"/dev/spidev0.0\" and \"/dev/spidev0.1\" are available\n");
 		return (-1);
 	}
 	tx_buffer[0] = 1;
