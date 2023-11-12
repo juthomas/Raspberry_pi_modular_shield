@@ -19,15 +19,14 @@ DEBUG = -g # -fsanitize=address
 WARNINGS = -Wall -Wextra# -Werror
 FLAGS =  # $(WARNINGS) $(FAST) $(DEBUG)# -D_REENTRANT
 
-#OS X, the math library is part of libSystem
-#Warning for -lm flag is normal on OS X
-INC = $(INC_DIR:%=-I./%) -lm -lspidev-lib
+INC = $(INC_DIR:%=-I./%)
+
+LIBS = -lm -lspidev-lib
 
 # CC = clang $(FLAGS) $(INC)
 CC = gcc $(FLAGS)
 
 ## List of Headers and C files 
-
 
 SRC_FT = analog_input_reader
 
@@ -56,7 +55,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 $(NAME): $(OBJ_DIRS) $(SRC)
 	@$(MAKE) -s -j $(OBJ)
 	@echo "$(COLOR)Objects \033[100D\033[40C\0033[1;32m[Created]\0033[1;37m"
-	@$(CC) $(OBJ)  $(INC) -o $@
+	@$(CC) $(OBJ)  $(INC) -o $@ $(LIBS)
 	@echo "$(COLOR)$(NAME) \033[100D\033[40C\0033[1;32m[Created]\0033[1;37m"
 
 clean:
