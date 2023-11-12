@@ -3772,7 +3772,7 @@
   (symbol (lib_id "Modular Shield:PINHD-1X8") (at 203.2 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000f6917365)
-    (property "Reference" "JP?" (at 196.85 103.505 0)
+    (property "Reference" "JP2" (at 196.85 103.505 0)
       (effects (font (size 1.4986 1.4986)) (justify left bottom))
     )
     (property "Value" "PINHD-1X8" (at 196.85 129.54 0)
@@ -3795,7 +3795,7 @@
     (instances
       (project "Raspberry_modular"
         (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125"
-          (reference "JP?") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
