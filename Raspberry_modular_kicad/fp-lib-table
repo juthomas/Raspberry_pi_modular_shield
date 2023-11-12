@@ -1,4 +1,6 @@
 (fp_lib_table
-  (lib (name OhEye)(type KiCad)(uri "$(KIPRJMOD)/OhEye.pretty")(options "")(descr ""))
-  (lib (name Raspberry_modular)(type KiCad)(uri ${KIPRJMOD}/Raspberry_modular.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "OhEye")(type "KiCad")(uri "$(KIPRJMOD)/OhEye.pretty")(options "")(descr ""))
+  (lib (name "Raspberry_modular")(type "KiCad")(uri "${KIPRJMOD}/Raspberry_modular.pretty")(options "")(descr ""))
+  (lib (name "Modular Shield ")(type "KiCad")(uri "${KIPRJMOD}/Modular Shield .pretty")(options "")(descr ""))
 )

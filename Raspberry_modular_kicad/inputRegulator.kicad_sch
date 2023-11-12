@@ -1,0 +1,458 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7c389534-ba7d-4968-a974-e72a821bf472)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:D_Zener" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D_Zener" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Zener diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_Zener_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+            (xy -0.762 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 1.27 1.27)
+            (xy -1.27 0)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "D_Zener_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.032 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R" (at 0 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 24.13 17.78) (diameter 0) (color 0 0 0 0)
+    (uuid 466d83ab-5a41-4a66-9e51-d4a3a8809558)
+  )
+  (junction (at 44.45 17.78) (diameter 0) (color 0 0 0 0)
+    (uuid a9fd6a32-4123-42fa-8bd4-3d49c86dacf1)
+  )
+  (junction (at 35.56 17.78) (diameter 0) (color 0 0 0 0)
+    (uuid f898adf8-de8d-436a-9f68-78493951dd61)
+  )
+
+  (wire (pts (xy 34.29 17.78) (xy 35.56 17.78))
+    (stroke (width 0) (type default))
+    (uuid 041a22a3-4e44-4b3c-9625-7ca2d33c78e9)
+  )
+  (wire (pts (xy 24.13 17.78) (xy 26.67 17.78))
+    (stroke (width 0) (type default))
+    (uuid 241d2f7f-cc8b-41aa-b588-6624a1c5fbc9)
+  )
+  (wire (pts (xy 44.45 25.4) (xy 44.45 17.78))
+    (stroke (width 0) (type default))
+    (uuid 591d7b49-a927-4358-a80f-717f0fcac194)
+  )
+  (wire (pts (xy 24.13 25.4) (xy 24.13 17.78))
+    (stroke (width 0) (type default))
+    (uuid 69b38bfd-2a76-42a4-8699-48e2d556de2d)
+  )
+  (wire (pts (xy 35.56 17.78) (xy 36.83 17.78))
+    (stroke (width 0) (type default))
+    (uuid 6ade5b63-175f-45bc-a2a8-d5286b19181c)
+  )
+  (wire (pts (xy 11.43 17.78) (xy 24.13 17.78))
+    (stroke (width 0) (type default))
+    (uuid 83397822-5b8d-4d00-b266-fb5257e4f899)
+  )
+  (wire (pts (xy 33.02 25.4) (xy 24.13 25.4))
+    (stroke (width 0) (type default))
+    (uuid 8b73e56a-6c18-407d-91fd-84f5236b4ecd)
+  )
+  (wire (pts (xy 35.56 7.62) (xy 35.56 17.78))
+    (stroke (width 0) (type default))
+    (uuid be4cc569-35e4-4892-a552-b10031d91776)
+  )
+  (wire (pts (xy 40.64 25.4) (xy 44.45 25.4))
+    (stroke (width 0) (type default))
+    (uuid bfec94eb-ea52-4f84-b279-338406de372d)
+  )
+  (wire (pts (xy 52.07 17.78) (xy 60.96 17.78))
+    (stroke (width 0) (type default))
+    (uuid ef8bc3b9-402c-49ca-9e04-0fe292245a9e)
+  )
+
+  (hierarchical_label "OUT" (shape bidirectional) (at 35.56 7.62 90)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b15cb0e5-c945-481a-a1a4-f2e8f1e893e4)
+  )
+  (hierarchical_label "IN" (shape bidirectional) (at 60.96 17.78 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ea8698e3-14b7-435d-8d0b-19815e41876e)
+  )
+  (hierarchical_label "GND" (shape bidirectional) (at 11.43 17.78 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f1af5d5e-7824-482e-b798-08eca0cdd0a3)
+  )
+
+  (symbol (lib_id "Device:R") (at 40.64 17.78 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-000061d07ac3)
+    (property "Reference" "R6" (at 40.64 12.5222 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10K" (at 40.64 14.8336 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Raspberry_modular:R_0603_1608Metric" (at 40.64 16.002 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 40.64 17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 76db21c6-36a7-472a-a08f-db8532577415))
+    (pin "2" (uuid 986469d2-a1c4-4f89-908a-1b95cc8a4e43))
+    (instances
+      (project "Raspberry_modular"
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224fa7b"
+          (reference "R9") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272ce0"
+          (reference "R15") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062286093"
+          (reference "R21") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622860b3"
+          (reference "R27") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4e6"
+          (reference "R33") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e506"
+          (reference "R39") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e526"
+          (reference "R45") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000061d07009"
+          (reference "R2") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224125d"
+          (reference "R6") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272cf0"
+          (reference "R18") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4d6"
+          (reference "R30") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e516"
+          (reference "R42") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272cd0"
+          (reference "R12") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4f6"
+          (reference "R36") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622860a3"
+          (reference "R24") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622b573e"
+          (reference "R48") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 48.26 17.78 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-000061d08ea2)
+    (property "Reference" "R7" (at 48.26 12.5222 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10K" (at 48.26 14.8336 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Raspberry_modular:R_0603_1608Metric" (at 48.26 16.002 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 48.26 17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 49ef7d46-ef0a-4e02-bd2a-3d65a4c35358))
+    (pin "2" (uuid f3d31595-fcd5-4778-83ec-e08e6b167b08))
+    (instances
+      (project "Raspberry_modular"
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224fa7b"
+          (reference "R10") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272ce0"
+          (reference "R16") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062286093"
+          (reference "R22") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622860b3"
+          (reference "R28") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4e6"
+          (reference "R34") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e506"
+          (reference "R40") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e526"
+          (reference "R46") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000061d07009"
+          (reference "R3") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224125d"
+          (reference "R7") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272cf0"
+          (reference "R19") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4d6"
+          (reference "R31") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e516"
+          (reference "R43") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272cd0"
+          (reference "R13") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4f6"
+          (reference "R37") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622860a3"
+          (reference "R25") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622b573e"
+          (reference "R49") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 30.48 17.78 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-000061d09579)
+    (property "Reference" "R5" (at 30.48 12.5222 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10K" (at 30.48 14.8336 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Raspberry_modular:R_0603_1608Metric" (at 30.48 16.002 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 30.48 17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e40389c2-3d26-4dc2-b73e-d8a61c3f38f9))
+    (pin "2" (uuid 779bf562-4cab-419a-af37-86f59da62038))
+    (instances
+      (project "Raspberry_modular"
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224fa7b"
+          (reference "R8") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272ce0"
+          (reference "R14") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062286093"
+          (reference "R20") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622860b3"
+          (reference "R26") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4e6"
+          (reference "R32") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e506"
+          (reference "R38") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e526"
+          (reference "R44") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000061d07009"
+          (reference "R1") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224125d"
+          (reference "R5") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272cf0"
+          (reference "R17") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4d6"
+          (reference "R29") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e516"
+          (reference "R41") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272cd0"
+          (reference "R11") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4f6"
+          (reference "R35") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622860a3"
+          (reference "R23") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622b573e"
+          (reference "R47") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Zener") (at 36.83 25.4 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 00000000-0000-0000-0000-000061d11266)
+    (property "Reference" "D2" (at 36.83 31.75 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "D_Zener 6.6V" (at 36.83 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Raspberry_modular:D_0603_1608Metric" (at 36.83 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 36.83 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5e9833e9-214d-4b5a-949d-eb91690809ef))
+    (pin "2" (uuid 718f0fbe-b633-4197-be32-d20e2acea391))
+    (instances
+      (project "Raspberry_modular"
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224fa7b"
+          (reference "D3") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272ce0"
+          (reference "D5") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062286093"
+          (reference "D7") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622860b3"
+          (reference "D9") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4e6"
+          (reference "D11") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e506"
+          (reference "D13") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e526"
+          (reference "D15") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000061d07009"
+          (reference "D1") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224125d"
+          (reference "D2") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272cf0"
+          (reference "D6") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4d6"
+          (reference "D10") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e516"
+          (reference "D14") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-000062272cd0"
+          (reference "D4") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006229e4f6"
+          (reference "D12") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622860a3"
+          (reference "D8") (unit 1)
+        )
+        (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-0000622b573e"
+          (reference "D16") (unit 1)
+        )
+      )
+    )
+  )
+)
