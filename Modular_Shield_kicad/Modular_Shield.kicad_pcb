@@ -3428,7 +3428,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-0000f6917365")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "JP2" (at -10.2362 -1.8288) (layer "F.SilkS") hide
         (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
       (tstamp 0f454f96-ad45-43c6-a9bd-f6ee695c0eee)
