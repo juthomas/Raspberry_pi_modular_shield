@@ -392,8 +392,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Raspberry_modular",
+      "Modular Shield"
+    ],
+    "pinned_symbol_libs": [
+      "Modular Shield"
+    ]
   },
   "meta": {
     "filename": "Raspberry_modular.kicad_pro",

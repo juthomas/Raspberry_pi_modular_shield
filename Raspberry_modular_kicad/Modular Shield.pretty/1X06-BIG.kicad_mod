@@ -1,0 +1,86 @@
+(footprint "1X06-BIG" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "JP4" (at -7.6962 -1.8288) (layer "F.SilkS") hide
+      (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
+    (tstamp 9cf7af9b-06d5-43f9-9d62-31634788be76)
+  )
+  (fp_text value "Val**" (at -7.62 3.175) (layer "F.Fab")
+      (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
+    (tstamp af97fa49-e266-4bf3-9aa5-fac6099568cf)
+  )
+  (fp_line (start -7.62 -1.27) (end 7.62 -1.27)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp dac2c56a-d49a-477b-962f-4738cfd6aaa9))
+  (fp_line (start -7.62 1.27) (end -7.62 -1.27)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp bfda8c08-e61c-4a35-8e2e-01422c3e7f65))
+  (fp_line (start 7.62 -1.27) (end 7.62 1.27)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 808a7ea7-1739-46e0-8b6b-9073a98634d4))
+  (fp_line (start 7.62 1.27) (end -7.62 1.27)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 53db4fdd-e06f-4a07-8fbe-1cd1658fbee7))
+  (fp_poly
+    (pts
+      (xy -6.604 0.254)
+      (xy -6.096 0.254)
+      (xy -6.096 -0.254)
+      (xy -6.604 -0.254)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp d0889164-b9a5-42b1-9cae-33488cb00a27))
+  (fp_poly
+    (pts
+      (xy -4.064 0.254)
+      (xy -3.556 0.254)
+      (xy -3.556 -0.254)
+      (xy -4.064 -0.254)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 6cfc6ac1-2e7e-4d26-a854-1a41f872b9a1))
+  (fp_poly
+    (pts
+      (xy -1.524 0.254)
+      (xy -1.016 0.254)
+      (xy -1.016 -0.254)
+      (xy -1.524 -0.254)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 1341cae1-e421-407a-ba35-dafa30bf6005))
+  (fp_poly
+    (pts
+      (xy 1.016 0.254)
+      (xy 1.524 0.254)
+      (xy 1.524 -0.254)
+      (xy 1.016 -0.254)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 0cdbbad2-990f-4b4e-b638-90c32edbe664))
+  (fp_poly
+    (pts
+      (xy 3.556 0.254)
+      (xy 4.064 0.254)
+      (xy 4.064 -0.254)
+      (xy 3.556 -0.254)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 2a3218e0-77e3-49e6-af04-b6e4ec08f756))
+  (fp_poly
+    (pts
+      (xy 6.096 0.254)
+      (xy 6.604 0.254)
+      (xy 6.604 -0.254)
+      (xy 6.096 -0.254)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp cd3c991b-27a4-4e7e-a8b6-23fead11a7aa))
+  (pad "1" thru_hole circle (at -6.35 0 90) (size 1.778 1.778) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.0508) (tstamp 18ec4c36-887c-49f0-b1d6-a8150ae14d21))
+  (pad "2" thru_hole circle (at -3.81 0 90) (size 1.778 1.778) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.0508) (tstamp e31101f2-772d-4d03-9fb8-766ec43de7ef))
+  (pad "3" thru_hole circle (at -1.27 0 90) (size 1.778 1.778) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.0508) (tstamp 83e62aff-abd0-49ab-9216-0206ff27d674))
+  (pad "4" thru_hole circle (at 1.27 0 90) (size 1.778 1.778) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.0508) (tstamp a969eaa9-8c4a-4a56-ad6b-cee83412ce8c))
+  (pad "5" thru_hole circle (at 3.81 0 90) (size 1.778 1.778) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.0508) (tstamp 92382323-37c9-4e34-a179-c2734f48a40d))
+  (pad "6" thru_hole circle (at 6.35 0 90) (size 1.778 1.778) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.0508) (tstamp c436cb9b-7949-42ad-b76f-939d2f7b3696))
+)

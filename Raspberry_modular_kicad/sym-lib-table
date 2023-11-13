@@ -1,7 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "OhEye-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/OhEye-eagle-import.lib")(options "")(descr ""))
-  (lib (name "OhEye-rescue")(type "Legacy")(uri "${KIPRJMOD}/OhEye-rescue.lib")(options "")(descr ""))
-  (lib (name "Raspberry_modular-rescue")(type "Legacy")(uri "${KIPRJMOD}/Raspberry_modular-rescue.lib")(options "")(descr ""))
   (lib (name "Modular Shield")(type "KiCad")(uri "${KIPRJMOD}/Modular Shield.kicad_sym")(options "")(descr ""))
 )
