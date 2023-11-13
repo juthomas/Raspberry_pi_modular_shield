@@ -9,9 +9,17 @@
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp 0d91aceb-6259-4713-8cd9-31c4347a2155)
   )
+  (fp_text user "juthomas.fr" (at 0 4.572 unlocked) (layer "F.Cu")
+      (effects (font (size 1.6 1.6) (thickness 0.25)))
+    (tstamp 82ccbdcc-3787-45fe-977c-56dca19d125c)
+  )
   (fp_text user "G***" (at -1.1 -5.475) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp 8e393b17-8272-4d61-bc91-e1736a121619)
+  )
+  (fp_text user "juthomas.fr" (at 0 4.572 unlocked) (layer "F.Mask")
+      (effects (font (size 1.6 1.6) (thickness 0.25)))
+    (tstamp d45c083a-a3f6-4610-b859-23723b6d2b14)
   )
   (fp_poly
     (pts

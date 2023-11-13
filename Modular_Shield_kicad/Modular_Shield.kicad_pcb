@@ -8393,15 +8393,23 @@
     (attr through_hole)
     (fp_text reference "G***" (at -1.1 -5.475) (layer "F.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)))
-      (tstamp 9246f790-897e-415a-8e0f-86526b77bb88)
+      (tstamp 8ee6089b-badd-46e6-89ab-8ceb0a766093)
     )
     (fp_text value "LOGO" (at -0.525 -11.275) (layer "F.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)))
-      (tstamp 30ca7a82-33ea-4714-b792-46c41bb5ce74)
+      (tstamp 9b56eb90-17bc-40a6-9ed7-dc8384b14ff3)
+    )
+    (fp_text user "juthomas.fr" (at 0 4.572 unlocked) (layer "F.Cu")
+        (effects (font (size 1.6 1.6) (thickness 0.25)))
+      (tstamp 94a32dc5-2aa0-4581-8ade-488d2560dea3)
     )
     (fp_text user "G***" (at -1.1 -5.475) (layer "F.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)))
-      (tstamp 0cd3cf61-0ed2-4c79-a2a1-42dc20fbb17a)
+      (tstamp a3513a78-e436-4efd-8c42-305d8c53f86f)
+    )
+    (fp_text user "juthomas.fr" (at 0 4.572 unlocked) (layer "F.Mask")
+        (effects (font (size 1.6 1.6) (thickness 0.25)))
+      (tstamp 0e93ea8d-fc6c-4874-815c-f40b0343ca8f)
     )
     (fp_poly
       (pts
@@ -8442,7 +8450,7 @@
         (xy 5.722415 -2.712776)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp 626b72e1-b27f-47da-8403-b36384003a50))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp 53b8f106-c461-43a1-b4f6-6beb7a056681))
     (fp_poly
       (pts
         (xy 2.040808 -0.185926)
@@ -8541,7 +8549,7 @@
         (xy 2.040808 -0.185926)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp 71a3b159-1b31-458e-9fc8-f47a9275860b))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp f193d430-dd5d-438b-b061-933116a46eef))
     (fp_poly
       (pts
         (xy -0.320311 -3.026997)
@@ -8978,7 +8986,7 @@
         (xy -0.320311 -3.026997)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp 7d35694c-4552-4c3e-9caa-d493cfd3fc60))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Cu") (tstamp 209147dd-f6cb-4cc9-b46d-a0eba4143ef8))
     (fp_poly
       (pts
         (xy 5.722415 -2.712776)
@@ -9018,7 +9026,7 @@
         (xy 5.722415 -2.712776)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp 7eb97501-13c2-4e72-ae00-24381bacf32c))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp 75631dc9-f9ad-43af-9976-bbbfad6b23d5))
     (fp_poly
       (pts
         (xy 2.040808 -0.185926)
@@ -9117,7 +9125,7 @@
         (xy 2.040808 -0.185926)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp 15a8616b-4e2d-4786-b0b6-3cea4bc8f37e))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp 6e85755f-d8db-4762-9fbb-136b251eba6b))
     (fp_poly
       (pts
         (xy -0.320311 -3.026997)
@@ -9554,7 +9562,7 @@
         (xy -0.320311 -3.026997)
       )
 
-      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp c16b355b-285c-4750-9c0d-5fb9ee20c55c))
+      (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp a71a014f-395b-42da-b64d-2fad11816e28))
   )
 
   (footprint "Modular Shield:Moon" (layer "F.Cu")
@@ -63200,9 +63208,6 @@
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp dd55d22b-b7c6-46e9-95fd-bcbbff143ea1))
   (gr_line (start 86.956 81.202) (end 28.956 81.202)
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp e5da906c-5b1c-4dfc-9c10-21d8150062fc))
-  (gr_text "juthomas.fr" (at 76.162 78.956) (layer "F.Cu") (tstamp 00000000-0000-0000-0000-000061b3d6d7)
-    (effects (font (size 1.6 1.6) (thickness 0.25)))
-  )
   (gr_text "So long as the universe had a beginning, \nwe could suppose it had a creator. \nBut if the universe is really completely self-contained, \nhaving no boundary or edge, \nit would have neither beginning nor end: \nit would simply be. What place, then, for a creator?" (at 76.924 56.858) (layer "B.SilkS") (tstamp f80bd5f6-58d0-46b6-9cec-19eaa1fd40de)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
@@ -63229,9 +63234,6 @@
   )
   (gr_text "Pull-Up 10K" (at 79.21 54.826) (layer "F.SilkS") (tstamp c91aacbc-b883-49f6-bb54-833f6c2e3286)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
-  )
-  (gr_text "juthomas.fr" (at 76.162 78.956) (layer "F.Mask") (tstamp 12b06e02-d973-4ff7-9895-45862ace9469)
-    (effects (font (size 1.6 1.6) (thickness 0.25)))
   )
 
   (segment (start 30.188 50.89) (end 30.94041 50.13759) (width 0.25) (layer "F.Cu") (net 1) (tstamp 00000000-0000-0000-0000-000061b478a6))
