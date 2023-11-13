@@ -18,6 +18,9 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "LCSC" "C894569" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
       (property "ki_keywords" "diode" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -78,6 +81,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C25804" (at 3.81 0 90)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "R res resistor" (at 0 0 0)
@@ -195,8 +201,11 @@
     (property "Datasheet" "~" (at 49.53 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76db21c6-36a7-472a-a08f-db8532577415))
-    (pin "2" (uuid 986469d2-a1c4-4f89-908a-1b95cc8a4e43))
+    (property "LCSC" "C25804" (at 49.53 34.29 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8e6e4697-ed48-420e-95c5-32beaf7bda9d))
+    (pin "2" (uuid 2a51221f-f8df-444c-a2a4-e341a2689246))
     (instances
       (project "Raspberry_modular"
         (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224fa7b"
@@ -266,8 +275,11 @@
     (property "Datasheet" "~" (at 59.69 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49ef7d46-ef0a-4e02-bd2a-3d65a4c35358))
-    (pin "2" (uuid f3d31595-fcd5-4778-83ec-e08e6b167b08))
+    (property "LCSC" "C25804" (at 59.69 34.29 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 19264bd4-0303-405b-b353-abbe9b5d57de))
+    (pin "2" (uuid 003987a1-ef3d-460e-8bb8-a7b82eee9712))
     (instances
       (project "Raspberry_modular"
         (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224fa7b"
@@ -337,8 +349,11 @@
     (property "Datasheet" "~" (at 39.37 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e40389c2-3d26-4dc2-b73e-d8a61c3f38f9))
-    (pin "2" (uuid 779bf562-4cab-419a-af37-86f59da62038))
+    (property "LCSC" "C25804" (at 39.37 34.29 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa3a38bc-c268-4a2d-bd5b-aa0f3835d8bc))
+    (pin "2" (uuid bfc5079b-3125-434d-bf81-b390c6199a49))
     (instances
       (project "Raspberry_modular"
         (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224fa7b"
@@ -408,8 +423,11 @@
     (property "Datasheet" "~" (at 44.45 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e9833e9-214d-4b5a-949d-eb91690809ef))
-    (pin "2" (uuid 718f0fbe-b633-4197-be32-d20e2acea391))
+    (property "LCSC" "C894569" (at 44.45 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d80480b5-e76a-4e7e-8b96-1eb4ea3c4b59))
+    (pin "2" (uuid bf92ccf4-9795-4f99-9b73-bb1d7f234670))
     (instances
       (project "Raspberry_modular"
         (path "/f7f606ea-7d0c-4680-9293-4d1bbfd60125/00000000-0000-0000-0000-00006224fa7b"
