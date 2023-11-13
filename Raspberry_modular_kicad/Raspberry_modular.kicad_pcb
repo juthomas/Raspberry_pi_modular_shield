@@ -63224,7 +63224,7 @@
   (gr_text "10K" (at 71.336 51.778) (layer "F.SilkS") (tstamp 6fc162cd-1dd6-4f29-878b-066801673643)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
-  (gr_text "6.6V Zener" (at 70.828 48.222) (layer "F.SilkS") (tstamp b88aeaef-9162-4a28-b3dd-d936ac6e8dfd)
+  (gr_text "6.8V Zener" (at 70.828 48.222) (layer "F.SilkS") (tstamp b88aeaef-9162-4a28-b3dd-d936ac6e8dfd)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
   (gr_text "Pull-Up 10K" (at 79.21 54.826) (layer "F.SilkS") (tstamp c91aacbc-b883-49f6-bb54-833f6c2e3286)
