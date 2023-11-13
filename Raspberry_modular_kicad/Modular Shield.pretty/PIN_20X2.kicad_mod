@@ -697,4 +697,9 @@
     (solder_mask_margin 0.0508) (tstamp 7eba0fdc-7de6-4ace-8847-976a3976edbc))
   (pad "40" thru_hole circle (at 24.13 -1.27) (size 1.524 1.524) (drill 1.016) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.0508) (tstamp dcfed6d4-0d8a-42ad-99fe-0cefd169d777))
+  (model ":KICAD7_3DMODEL_DIR:Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.step"
+    (offset (xyz 24.15 1.25 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 0 -90))
+  )
 )
