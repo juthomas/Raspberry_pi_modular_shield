@@ -806,7 +806,7 @@
     (property "ki_description" "expansion header for Raspberry Pi 2 & 3")
     (property "ki_keywords" "raspberrypi gpio")
     (path "/00000000-0000-0000-0000-000061f941cc")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J1" (at -12.7 4.191) (layer "F.SilkS") hide
         (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
       (tstamp ea0b9a9d-9fad-4f70-8198-5849749d6db7)
@@ -3288,7 +3288,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-0000664f9d51")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP6" (at -11.5062 -1.8288) (layer "F.SilkS") hide
         (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
       (tstamp bc7bcf91-774f-444b-a669-c9081de036a1)
@@ -3424,7 +3424,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-0000f6917365")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP2" (at -10.2362 -1.8288) (layer "F.SilkS") hide
         (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
       (tstamp cab1e1d8-8ec3-4b10-aab1-857d5b8bb48a)
@@ -3538,7 +3538,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-000048cd7b62")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP3" (at -7.6962 -1.8288) (layer "F.SilkS") hide
         (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
       (tstamp 759bb988-4497-4ba0-8ebe-528020861b4d)
@@ -3630,7 +3630,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-00002aeccf64")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP4" (at -11.5062 -1.8288) (layer "F.SilkS") hide
         (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
       (tstamp 0d128776-2a71-4866-8fee-fd888bbe20b5)
@@ -3935,7 +3935,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-0000eb76d72f")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP5" (at -10.2362 -1.8288) (layer "F.SilkS") hide
         (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
       (tstamp 5b807b77-a40a-473b-8367-0f13ab703c8a)
@@ -4049,7 +4049,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-0000a75a2b47")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "JP1" (at -7.6962 -1.8288) (layer "F.SilkS") hide
         (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
       (tstamp dfa85b44-40a7-4a09-919b-1bcc45c9b72e)
