@@ -1,6 +1,6 @@
 (footprint "1X08-BIG" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "JP7" (at -10.2362 -1.8288) (layer "F.SilkS") hide
       (effects (font (size 1.2065 1.2065) (thickness 0.127)) (justify left bottom))
     (tstamp 20d6c8d1-135b-405d-853d-91b4fff1a2dc)
