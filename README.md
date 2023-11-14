@@ -5,7 +5,7 @@
 
 ## Schematics
 
-- [Link to pdf](https://github.com/juthomas/Raspberry_pi_modular_shield/blob/master/Schematics%20PDF/Raspberry_modular.pdf)
+- [Link to pdf](https://github.com/juthomas/Raspberry_pi_modular_shield/blob/master/Schematics%20PDF/Modular_Shield.pdf)
 
 ## Bill Of Materials
 
