@@ -19,7 +19,7 @@
 
 - [MCP3008](https://www.lcsc.com/product-detail/Analog-To-Digital-Converters-ADCs_Microchip-Tech-MCP3008-I-SL_C1520159.html) C1520159
 
-## Install dependency for C coding :
+## Install dependency for C coding
 
 [spidev-lib](https://github.com/juthomas/spidev-lib)
 
